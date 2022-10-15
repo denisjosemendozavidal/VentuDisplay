@@ -165,6 +165,235 @@
 
 /*Styles for the home page end here*/
 
+/*Styles for #AGENTS*/
+
+.header_title{
+    width: 100vw;
+    height: 7rem;
+    display: flex;
+   padding-left: 4rem;
+   padding-top: rem;
+    background-image:url("/img/background-table.jpg");
+}
+.title{
+    font-size: 42px;
+    color:var(--color-title-text);
+    font-family: sanchez;
+    font-weight: 100;
+}
+
+.container{
+    width: 100vw;
+    padding:4rem;
+    padding-top: 3rem;
+    display:flex;
+ }
+.agents{
+  width: 100vw;
+  height: max-content;
+}
+
+.img_agents{
+  width: 70%;
+  padding: 2.8rem 3rem;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Form{
+    background-color: var(--color-background-form);
+    width: 400px;
+    max-width: 100%;
+    margin:auto;
+    padding: 20px;
+    box-shadow:0 0 20px 1px rgba(0,0,0,0.3)  ;
+    position: relative;
+}
+.Form p{
+padding: 1rem;
+}
+
+.form_input, .form_label{
+display: block;
+width: 90%;
+font-size: 1.3em;
+}
+.form_input{
+  padding: 20px;
+  border:0.5px solid rgba(217, 212, 212, 30%);
+  margin-bottom: 40px;
+  background-color: rgba(253, 252, 252, 0.8);
+}
+.form_input:focus{
+outline: 2px solid ;
+border-radius: 3px;
+}
+.button_send{
+  border-top: 2px dashed rgba(140, 136, 136, 0.3);
+}
+.form_label{
+  padding-bottom: 1rem;
+  font-weight: 600;
+  font-family:Helvetica;
+  font-size: 18px;
+}
+
+
+.title_form{
+  width: 100%;
+  font-size: 22px;
+  background-color: var(--color-bg-top);
+  color: white;
+  padding: 2.3rem;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Sanchez', serif;
+}
+.submit_contact{
+margin-left: 50%;
+padding: 2rem;
+}
+.section_icons{
+  display: flex;
+  gap:30px;
+  justify-content: center;
+  flex-wrap:wrap;
+  padding: 2rem;
+  background-color: var(--color-background-form);
+  padding-left: 4rem;
+}
+
+.Card-icons{
+ display: inline-block;
+  background-color: white;
+  list-style: none;
+  width: 20rem;
+  height: auto;
+  border: 1px solid transparent;
+  margin-left: 4rem;
+  margin-bottom: 2rem;
+
+}
+.Card-icons h1{
+ color: var(--color-bg-top);
+margin-left:50% ;
+margin-bottom: 1px;
+padding-top: 2rem;
+padding-bottom: 2rem;
+font-size: 30px;
+
+}
+.Card-icons h2{
+  color: var(--color-bg-top);
+  font-family: 'Sanchez';
+  justify-content: center;
+  align-items: center;
+font-size: 20px;
+line-height: 20px;
+font-weight:400;
+  margin-left:15% ;
+  padding-bottom: 2rem;
+}
+
+.Card-icons p{
+color: rgb(165, 163, 163);
+padding-bottom: 2rem;
+font-family:Helvetica;
+font-size: 22px;
+line-height: 23px;
+font-weight: 400;
+padding-left: 2rem
+}
+
+.fa-laptop{
+  font-size: 4rem;
+  color:var(--color-font-header-list);
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+  padding-bottom: 2rem;
+}
+.fa-phone{
+  font-size: 4rem;
+  color:var(--color-font-header-list);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    padding-bottom: 2rem;
+}
+.fa-magnifying-glass{
+  font-size: 4rem;
+  color:var(--color-font-header-list);
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+.fa-money-bill-1{
+  font-size: 4rem;
+  color:var(--color-font-header-list);
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+.help{
+  padding: 2rem;
+  padding-left: 4rem;
+  width: 100%;
+}
+
+.title_help{
+  padding-bottom: 3rem;
+  font-family: 'Sanchez';
+  font-size: 29px;
+  font-weight: 400;
+  line-height: 33px;
+}
+
+.help ul>li{
+  line-height: 2rem;
+  font-family:Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.form_submit.form_submit{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0095ff;
+  border: 1px solid transparent;
+  color: #fff;
+  cursor: pointer;
+  font-family:Helvetica;
+  font-size: 20px;  
+  font-weight: 700;
+  outline: none;
+  margin-top: 1rem;
+  padding:1rem 2rem;
+
+  
+}
+
+.form_submit:hover,
+.form_submit:focus {
+  background-color: #07c;
+}
+
+.form_submit:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.form_submit:active {
+  background-color: #0064bd;
+  box-shadow: none;
+}
+
+/**/
+
 /*Styles for #CURRENTPROJECTS and #SELLYOURHOME and #ABOUT you*/
 
 
@@ -339,7 +568,7 @@
 @media (max-width: 599px) {
 
     /*#ABOUTYOU4 #SELLYOURHOME4 #CURRENTPROJECTS4*/
-    
+
     .img_float{
         float: right!important;
         margin-left: 1.33rem;
@@ -349,4 +578,10 @@
         width: 400px;
         align-self: center;
     }
+
+    /*#AGENTS4*/
+
+    form{
+        width: 100%;
+      }
 }
