@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;500&family=Sanchez&display=swap");
+:root {
+    --web-background:rgb(255, 255, 255);
+    --menu1-background:rgb(28, 117, 188);
+    --menu1-font-size:14px;
+    --menu1-font-weight:400;
+    --menu1-font-line_height:21px;
+    --menu1-font-color_hover:rgb(156, 196, 222);
+    --menu1-font-color:rgb(255, 255, 255);
+    --menu2-font-size:16px;
+    --menu2-font-weight:400;
+    --menu2-font-line_height:16px;
+    --menu2-font-color:rgb(182, 219, 243);
+    --menu2-font-color_hover: rgb(217, 214, 229);
+    --img3-font-color:rgb(14, 0, 0);
+    --img3-font-size:29px;
+    --img3-font-weight:400;
+    --img3-font-line_height:33px;
+    --img3-button-background:rgb(28, 117, 188);
+    --img3-button-font-color:rgb(255, 255, 255);
+    --img3-button-color_hover: rgb(14, 0, 0);
+    --img3-font-size:16px;
+    --img3-font-weight:400;
+    --img3-font-line_height:16px;
+    --color-bg-top: #1c75bc;
+    --color-bg-bottom: white;
+    --color-font-header-list: #2198c3;
+  
+  }
+
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  /* font-family: 'Arimo', sans-serif;
+  font-family: 'Sanchez', serif; */
+  
+  .header_top {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    padding: 0.7rem;
+    overflow: hidden;
+    background-color: var(--color-bg-top);
+  }
+  .header_top_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    list-style: none;
+    font-family: sanchez;
+    font-size: 13px;
+    color: white;
+  }
+  .icon_fb {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  
+  .header_bottom {
+    width: 100vw;
+  
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: center;
+    padding: 0.7rem;
+    overflow: hidden;
+  }
+  .container_list_header_top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container_list_header_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header_bottom_list {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    text-align: center;
+    gap: 3rem;
+    list-style: none;
+    font-family: arimo;
+    color: var(--color-font-header-list);
+  }
+  
+  .footer_container_principal {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+  padding: 3rem;
+    background: rgb(36, 32, 83);
+    background: linear-gradient(
+      360deg,
+   
+      rgba(9, 103, 177, 1) 1%,
+      #25a1db 100%
+    );
+    color:white;
+    padding: 2rem;
+  
+  
+  }
+  .footer_container_principal h3{
+      font-family: sanchez;
+      margin-bottom: 1rem;
+  }
+  .footer_container_principal li,p{
+      font-family: arimo;
+  }
+  
+  .explore_footer_box{
+      padding: 1rem;
+      
+  }
+  .explore_footer_box ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap:5px
+  }
+  
+  .explore_footer_box ul>li {
+     cursor: pointer;
+  }
+  
+  .contact_us_footer_box{
+      padding: 1rem;
+  }
+  
+  .contact_us_footer_box ul{
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap:5px
+  }
+  .follow_us_footer_box{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  }
+  
+  .follow_us_footer_box img{
+     cursor: pointer;
+      }
+  
+  
+      .info_venture_grup_box{
+          max-width:320px ;
+      }
+
+
+/*Styles for the home page start here*/
+
+
+
+/*Styles for the home page end here*/
+
+
+
+/*Media start here*/
+
+@media (max-width: 1024px) {
+
+}
+@media (max-width: 781px) {
+
+}
+
+@media (max-width: 599px) {
+
+}
