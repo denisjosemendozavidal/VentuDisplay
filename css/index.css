@@ -1,0 +1,394 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;500&family=Sanchez&display=swap");
+:root {
+  --color-bg-top: #1c75bc;
+  --color-bg-bottom: white;
+  --color-font-header-list: #2198c3;
+  --color-bg-card:#f2f2f2;
+
+}
+body{
+  width: 100vw;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* font-family: 'Arimo', sans-serif;
+font-family: 'Sanchez', serif; */
+
+.header_top {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  padding: 0.7rem;
+  
+  background-color: var(--color-bg-top);
+}
+.header_top_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  list-style: none;
+  font-family: sanchez;
+  font-size: 13px;
+  color: white;
+  cursor: pointer;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+
+.header_top_list li:hover {
+  color: rgb(117, 244, 248);
+}
+.header_bottom_list a {
+  color: var(--color-font-header-list);
+}
+.header_top_list a {
+  color: #fff;
+}
+
+.icon_fb {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.header_bottom {
+  width: 100vw;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  justify-content: center;
+  padding: 0.7rem;
+ 
+}
+.bg_principal_top{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+  background-image: url("../Images/home_cover_principal.jpg");
+  background-size: 1500px;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+  
+}
+.bg_principal_top h2{
+ font-family: sanchez;
+ text-align: center;
+ color: white;
+ 
+ text-shadow: 2px 2px  #000000;
+}
+.container_list_header_top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container_list_header_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header_bottom_list {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 15px;
+  text-align: center;
+  gap: 3rem;
+  list-style: none;
+  font-family: arimo;
+  color: var(--color-font-header-list);
+}
+
+.footer_container_principal {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  padding: 3rem;
+  background: rgb(36, 32, 83);
+  background: linear-gradient(360deg, rgba(9, 103, 177, 1) 1%, #25a1db 100%);
+  color: white;
+  padding: 2rem;
+}
+.footer_container_principal h3 {
+  font-family: sanchez;
+  margin-bottom: 1rem;
+}
+.footer_container_principal li,
+p {
+  font-family: arimo;
+}
+
+.explore_footer_box {
+  padding: 1rem;
+}
+.explore_footer_box ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.explore_footer_box ul > li {
+  cursor: pointer;
+}
+
+.contact_us_footer_box {
+  padding: 1rem;
+}
+
+.contact_us_footer_box ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.follow_us_footer_box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.follow_us_footer_box img {
+  cursor: pointer;
+}
+
+.info_venture_grup_box {
+  max-width: 320px;
+}
+.list_options_buy_sell_our{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:8rem;
+  margin: 3rem;
+  background-color: var(--color-bg-card);
+  width: 100vw;
+  padding: 2rem;
+}
+
+.card{
+  width: fit-content;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  gap: 1.2rem;
+  padding-bottom: 17px;
+  font-family: sanchez;
+}
+.card h2{
+  text-align: center;
+  font-family: sanchez;
+  font-size: 25px;
+  font-weight: 400;
+  color: #333333;
+}
+.card button{
+  width: fit-content;
+ border: none;
+ background-color: var(--color-bg-top);
+ color: white;
+ padding: 0.4rem;
+ cursor: pointer;
+
+}
+.card button:hover{
+  color: black;
+
+}
+.information_home_address_testimonials{
+  display: flex ;
+  width: 100vw;
+  padding: 2rem;
+  background-color: white;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.form_get_home_address{
+  
+  display: flex;
+  gap: 7px;
+flex-direction: column;
+  flex-wrap: wrap;
+}
+.form_get_home_address h2{
+  font-family: sanchez;
+  font-weight: 400;
+  max-width: 330px;
+  font-size: 2em;
+  color: #0264ab;
+  text-align: center;
+}
+
+.form_get_home_address p{
+  font-family: arimo;
+  font-weight: 100;
+  font-size: 11px;
+  text-align: center;
+ 
+}
+
+
+.text_box_home_address::placeholder {
+padding: 10px;
+}
+.text_box_home_address {
+  max-width: 330px;
+  
+  }
+
+  .text_box_home_address:not(textarea) {
+    line-height: 1;
+    height: 1rem;
+  }
+  .text_box_home_address:active {
+  border: none;
+    height: 1rem;
+  }
+  .testimonials_carousel{
+    padding: 1rem;
+    max-width: 340px;
+    overflow: hidden;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .testimonials_carousel h2{
+   font-family: sanchez;
+   font-weight: 600;
+   
+  }
+  
+
+  .testimonials_carousel span{
+    font-style: italic;
+    font-family: arimo ;
+    font-size: 19px;
+  }
+  .card_blog_container{
+    display: flex;
+  }
+  .latest_blog_post_container h2{
+    text-align: center;
+  }
+.card_blog_container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+  .latest_blog_post_container{
+    flex-direction: column;
+    background-color: #f5f5f5;
+    width: 100vw;
+  font-family: sanchez;
+    justify-content: center;
+    justify-items: center;
+    padding: 2rem;
+    display: flex;
+    gap: 3rem;
+  }
+
+  .card_blog_first{
+    width: 200px;
+   
+  }
+  .card_blog{
+    max-width: 320px;
+    display: flex;
+    gap: 10px;
+
+  }
+
+ 
+  .card_blog_second{
+   width: 200px;
+  }
+  .card_blog h4{
+   font-family: sanchez;
+   font-weight: 100;
+   font-size: small;
+  }
+  .card_blog p{
+    font-family: arimo;
+    font-style: italic;
+    font-weight: 100;
+    font-size: .8em;
+   }
+ 
+
+
+  .card_blog img{
+   width: 70px;
+   height: 70px;
+  }
+
+  .card_blog_third{
+    width: 220px;
+  }
+
+
+  .learn_more_about_container{
+    padding: 2rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .learn_more_about_container h2{
+    text-align: center;
+    font-family: sanchez;
+  }
+
+  .learn_more_about_container button{
+   border: none;
+   cursor: pointer;
+   text-align: center;
+   padding: .5rem;
+   color: white;
+   font-family: arimo;
+   font-weight: 100;
+   font-size: small;
+   background-color: var(--color-bg-top);
+  }
+
+  .learn_more_about_container button:hover{
+   color: black;
+   }
+
+  
+
+  .learn_more_about_container p{
+   font-family: arimo;
+   font-weight: 100;
+   font-size: medium;
+  }
+
+  
