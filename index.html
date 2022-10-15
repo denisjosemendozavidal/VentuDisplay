@@ -1,141 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/headerFooter.css">
-    <link rel="stylesheet" href="../css/index.css">
-  </head>
-<body>
-    <!DOCTYPE html>
-<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./header.css" />
-    <title>venture Group</title>
-    <!--
-        <script
-          src="https://kit.fontawesome.com/6c7353830a.js"
-          crossorigin="anonymous"
-        ></script>
-     -------Need to identify how to download icons----
-    -->
+    <link rel="stylesheet" href="./css/index.css" />
 
+    <title>venture Group</title>
+    <script
+      src="https://kit.fontawesome.com/6c7353830a.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="main.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
   </head>
   <body>
     <header class="header_principal">
       <div class="header_top">
         <div class="container_list_header_top">
           <ul class="header_top_list">
-            <li><a href="/Pages/contractors.html"> Contractors </a></li>
-            <li> <a href="/Pages/investors.html">Investors</a></li>
-            <li><a href="/Pages/agents.html">Agents</a></li>
-            <li><a href="/Pages/contactus.html">Contact us</a></li>
+            <li>contractors</li>
+            <li><a href="./Pages/investors.html">investors</a></li>
+            <li>agents</li>
+            <li>contact us</li>
             <li>909-743-8460</li>
           </ul>
-          
         </div>
-        <img class="icon_fb" src="../img/fb_logo.svg" alt="icon_fb"   width="25px"/>
-       
+        <img
+          class="icon_fb"
+          src="./Images/fb_logo.svg"
+          alt="icon_fb"
+          width="25px"
+        />
       </div>
       <div class="header_bottom">
-        <img src="../img/cropped-logo-1-1-1536x616.png" alt="venture_group_logo_home"  width="200px"/>
+        <img
+          src="./Images/logo.svg"
+          alt="venture_group_logo_home"
+          width="200px"
+        />
         <div class="container_list_header_bottom">
           <ul class="header_bottom_list">
-            <li><a href="/index.html">HOME</a></li>
-            <li><a href="/Pages/aboutus.html">ABOUT US</a></li>
-            <li><a href="/Pages/sellyourhouse.html">SELL YOUR HOUSE</a></li>
-            <li><a href="/Pages/currentprojects.html">CURRENT PROJECTS</a></li>
-            <li><a href="/Pages/blog.html">BLOG</a></li>
+            <li><a href="index.html">HOME</a></li>
+            <li>ABOUT US</li>
+            <li>SELL YOUR HOUSE</li>
+            <li>CURRENT PROJECTS</li>
+            <li>BLOG</li>
           </ul>
         </div>
       </div>
     </header>
 
     <section class="bg_principal_top">
-      <h2></h2>
+      <h2>We Help You Realize Your Real Estate Goals</h2>
     </section>
 
     <section class="list_options_buy_sell_our">
-      <div class="first_card card"></div>
-      <div class="second_card card"></div>
+      <div class="first_card card">
+        <img
+          src="./Images/img-fbox1.png"
+          alt="buy_a_home_picture"
+          width="280px"
+        />
+        <h2>Comprar una Casa</h2>
+        <button>OBTENER UNA PRECALIFICACIÓN</button>
+      </div>
+      <div class="second_card card">
+        <img
+          src="./Images/img-fbox2.png"
+          alt="sell_your_home_picture"
+          width="280px"
+        />
+        <h2>Vender tu Casa</h2>
+        <button>OBTENER UNA OFERTA</button>
+      </div>
 
-      <div class="third_card card"></div>
+      <div class="third_card card">
+        <img src="./Images/fbox3.jpg" alt="meet_our_team_picture" width="300px" />
+        <h2>Conoce a Nuestro Equipo</h2>
+        <button>CONOCENOS</button>
+      </div>
     </section>
 
     <section class="information_home_address_testimonials">
       <div class="video_and_home_address_box">
-        <div class="video_testimonials"></div>
+        <video width="300px" height="200px" controls>
+          <source src="./resources/video_info_corp.mp4" type="video/mp4">
+          <source src="./resources/video_info_corp.ogv" type="video/ogv">
+        </video>
+        </div>
 
-        <div class="form_get_home_address"></div>
+        <div class="form_get_home_address">
+          <h2 class="title_get_home_address">
+            Obtenga una casa GRATIS
+            Informe de valor</h2>
+            <p class="info_p_home_address">Comience especificando la dirección de su casa:</p>
+            <input class="text_box_home_address" type="text" placeholder="Ingrese su dirección">
+        </div>
       </div>
+      <div class="testimonials_carousel">
+        <h2>Testimonios</h2>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
 
-      <div class="testimonials_carrusel"></div>
-    </section>
+            
+            <div class="carousel-item active">
+              <p>
+                ¡Es increíble trabajar con Venture Group International LLC! Trabajan duro para resolver problemas y lo hacen con un alto nivel de integridad. <span>Jhon D.</span></p>
 
-    <section class="latest_blog_post_container">
-      <h2></h2>
+                <!-- !se puede poner imagenes en el carusel -->
+             
+            </div>
+            <div class="carousel-item">
+              <p>¡He estado trabajando con estos muchachos desde hace años! Con mucho trabajo duro y comunicación oportuna se aseguraron de entregarme lo mejor. ¡Muy recomendable!<span>Jim D.</span></p>
+             
+            </div>
+            <div class="carousel-item">
+              <p>Honestidad e integridad son las dos palabras que mejor describen a Venture Group International LLC. Muy recomendable <span>Kristen W.</span></p>
+             
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+     </section>
+     <section class="latest_blog_post_container">
+      <h2>Últimas publicaciones de blog</h2>
       <div class="card_blog_container">
-        <div class="card_blog_first card_blog"></div>
-        <div class="card_blog_second card_blog"></div>
-        <div class="card_blog_third card_blog"></div>
+        <div class="card_blog_first card_blog">
+          <img src="./Images/latestBlogf1.jpg" alt="picture_blog_card1" width="30px">
+          <div class="info_blog_box">
+            <h4>Inversores: la asociación más poderosa de un agente de bienes raíces</h4>
+            <p>Noviembre 25, 2020</p>
+          </div>
+        </div>
+        <div class="card_blog_second card_blog">
+          <div class="card_blog_first card_blog">
+            <img src="./Images/latestfoto2.jpg" alt="picture_blog_card2" width="30px">
+            <div class="info_blog_box">
+              <h4>Cómo la precalificación puede ayudarlo a conseguir la casa de sus sueños</h4>
+              <p>Noviembre 25, 2020</p>
+            </div>
+        </div>
+        
       </div>
+      <div class="card_blog_third card_blog">
+         
+        <img src="./Images/latestBlogf3.jpg.jpg" alt="picture_blog_card3" width="30px">
+        <div class="info_blog_box">
+          <h4>Buscando contratistas de alta calidad para unirse a nuestro equipo</h4>
+          <p>Febrero 28, 2020</p>
+        </div>
+    </div>
     </section>
 
     <section class="learn_more_about_container">
-      <h2></h2>
-      <h2></h2>
-      <p></p>
-      <button></button>
+      <h2>Aprender más acerca de
+        Quienes somos</h2>
+     
+      <p>Venture Group International LLC es la principal empresa de soluciones inmobiliarias del área y, desde nuestros inicios, hemos estado ayudando a los propietarios de viviendas y mejorando las comunidades en todas y cada una de las ciudades en las que trabajamos.</p>
+      <button>Lee mas sobre nosotros</button>
     </section>
 
     <footer class="footer_container_principal">
-        <div class="explore_footer_box">
-          <h3 class="Main-Footer-inside-tittle">Explore</h3>
-          <div class="explore_footer_list">
-              <ul class="explore_footer_list-ul">
-                <li><a href="/index.html">HOME</a></li>
-                <li><a href="/Pages/blog.html">BLOG</a></li>
-                <li>FAQ</li>
-                <li><a href="/Pages/currentprojects.html">CURRENT PROJECTS</a></li>
-              </ul>
-              <ul class="explore_footer_list-ul">
-                <li><a href="/Pages/aboutus.html">ABOUT US</a></li>
-                <li><a href="/Pages/buyAHome.html">BUY A Home</a></li>
-                <li>Privacy Policy</li>
-                <li><a href="/Pages/sellyourhouse.html">SELL YOUR HOUSE</a></li>
-              </ul>
-          </div>
+      <div class="explore_footer_box">
+        <h3>Explore</h3>
+        <ul class="explore_footer_list">
+          <li>Home</li>
+          <li>Blog</li>
+          <li>FAQ</li>
+          <li>Current Projects</li>
+          <li>About Us</li>
+          <li>Buy Home</li>
+          <li>Privacy Policy</li>
+          <li>Sell Your House</li>
+        </ul>
+      </div>
+
+      <div class="contact_us_footer_box">
+        <h3>Contact Us</h3>
+        <ul class="constact_us_footer_list">
+          <li>Wilmington, NC</li>
+          <li>909-743-8460</li>
+          <li>info.venturegroupintl@gmail.com</li>
+        </ul>
+      </div>
+
+      <div class="follow_us_footer_box">
+        <h3>Follow Us</h3>
+        <img src="./Images/fb_logo.svg" alt="icon_fb" width="25px" />
+        <div class="info_venture_grup_box">
+          <p>
+            Venture Group International LLC is a Private Real Estate Development
+            and Investment Company. We are not a Real Estate Broker.
+          </p>
         </div>
-  
-        <div class="contact_us_footer_box">
-          <h3 class="Main-Footer-inside-tittle">Contact Us</h3>
-          <ul class="constact_us_footer_list">
-            <li>Wilmington, NC</li>
-            <li>909-743-8460</li>
-            <li>info.venturegroupintl@gmail.com</li>
-          </ul>
-        </div>
-  
-        <div class="follow_us_footer_box">
-          <h3 class="Main-Footer-inside-tittle">Follow Us</h3>
-          <img src="/DenisM/images/fb_logo.svg" alt="icon_fb"  width="25px"/>
-          <div class="follow_us_footer_box_legal_info">
-            <p>
-              Venture Group International LLC is a Private Real Estate Development
-              and Investment Company. We are not a Real Estate Broker.
-            </p>
-          </div>
-          
-        </div>
+      </div>
     </footer>
-    <script src="/main.js"></script>
   </body>
-</html>
-</body>
 </html>
