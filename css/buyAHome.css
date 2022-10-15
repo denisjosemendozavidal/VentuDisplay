@@ -11,10 +11,28 @@ a {
     text-decoration: none;
 }
 
+li {
+    list-style: none;
+}
+
 .buyAhome-header{
     background-image: url("/Images/Header-bg-Img.jpg");
 }
 
     .buyAhome-header-tittle {
         font-family: sanchez;
+        margin-left: 20%;
     }
+
+.buyAhome-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 50%;
+    height: fit-content;
+    margin-left: 20%;
+    
+}
+
