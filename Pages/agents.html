@@ -91,23 +91,35 @@
     <img class="img_agents" src="/img/agents.jpg" alt="">
   </div>
 
-  <section class="container-form">
-    <div class="Form">
-      <p class="title_form">¡Envienos su informacion y lo contactaremos!</p>
-      <p>Paso 1 de 2</p>
-      <form action="" class="form">
-        <label class="form_label">Nombres: *</label>
-        <input type="text" class="form_input" placeholder="" required>
-        <label class="form_label">Telefono: *</label>
-        <input type="text" class="form_input" placeholder="" required>
-        <label class="form_label">Correo: *</label>
-        <input type="text" class="form_input" placeholder="" required>
-        <section class="button_send">
-          <input type="submit" value="Siguiente" class="form_submit">
-        </section>
+  <form class="container_form" action="">
+
+    <h3>Envienos su Informacion y Lo Contactaremos</h3>
+
+    <div class="body_form">
+        <div class="label-input">
+            <label class="label_form" for="username">Nombre Completo * <abbr title="required"
+                    aria-label="required"></abbr></label>
+            <input id="username" type="text" name="username">
+        </div>
+
+        <div class="label-input">
+            <label class="label_form" for="messaage">Número telefónico *</label>
+            <input id="address" type="text" name="username">
+        </div>
+        <div class="label-input">
+          <label class="label_form" for="email">Correo Electronico* <abbr title="required"
+                  aria-label="required"></abbr></label>
+          <input id="email" type="email" name="username">
+      </div>
+
+
+
+        <button class="form_btn">Enviar</button>
+
     </div>
-    </form>
-    <script src="form.js"> </script>
+
+</form>
+<script src="form.js"> </script>
     </div>
   </section>
 
