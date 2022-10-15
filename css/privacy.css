@@ -1,0 +1,48 @@
+.title-privacy {
+    background-image: url(../Images/Header-bg-Img.jpg);
+    margin: 1rem 0;
+    box-shadow: inset 0 0 20px 5px rgba(0, 0, 0, 0.226);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-privacy h1 {
+    padding: 2rem 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.container-privacy {
+    word-wrap: break-word;
+    font-size: 15px;
+    line-height: 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 700px;
+    margin: auto;
+    gap: 2rem;
+    padding: 1rem 2rem 2rem 2rem;
+}
+
+.container-privacy span {
+    font-weight: 800;
+
+}
+
+@media (min-width: 781px) {
+
+    .title-privacy h1 {
+        text-align: left;
+        padding-left: 4rem;
+        max-width: 1140px;
+        margin: auto;
+    }
+
+    .container-privacy {
+        max-width: 1140px;
+        padding: 1rem 4rem 2rem 4rem;
+    }
+}
