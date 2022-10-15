@@ -17,22 +17,73 @@ li {
 
 .buyAhome-header{
     background-image: url("/Images/Header-bg-Img.jpg");
+    height: 10vh;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    
 }
 
     .buyAhome-header-tittle {
         font-family: sanchez;
         margin-left: 20%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        font-weight: lighter;
     }
 
 .buyAhome-content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     align-content: center;
-    width: 50%;
-    height: fit-content;
+    width: 70%;
+    height: 2000px;
     margin-left: 20%;
+    margin-bottom: 5%;
     
 }
 
+    .buyAhome-content-text-and-recentPosts {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        padding: 1%;
+        gap: 1%;
+    }
+
+        .buyAhome-content-text {
+            width: 60%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 2%;
+        }
+
+            .buyAhome-content-text-tittle {
+                font-family: Sanchez;
+                font-size: xx-large;
+                font-weight: lighter;
+                width: 100%;
+            }
+
+            .buyAhome-content-text > p {
+                width: 100%;
+                height: fit-content;
+                font-family: Helvetica;
+                font-weight: lighter;
+                line-height: 2rem;
+                font-size: medium;
+            }
+
+                .buyAhome-content-text > p > span {
+                    font-weight: bold;
+                }
+
+        .buyAhome-content-recentPosts {
+            width: 40%;
+            height: 100%;
+        }
