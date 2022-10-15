@@ -85,12 +85,12 @@ li {
 
                 .buyAhome-content-text > p > a {
                     font-weight: bolder;
-                    color:  var(--font-color-tel-buyAHome);
+                    color: var(--color-bg-top);
                     transition: 0.5s ease-in-out;
                 }
 
                     .buyAhome-content-text > p > a:hover {
-                        color: var(--color-bg-top);
+                        color: var(--font-color-tel-buyAHome);
                         transition: 0.5s ease-in-out;
                     }
 
@@ -99,6 +99,7 @@ li {
             height: 100%;
             display: flex;
             flex-direction: column; 
+            padding: 1%;
         }
 
             .buyAhome-content-recentPosts-header {
@@ -124,9 +125,48 @@ li {
                 height: 100%;
                 font-family: Helvetica;
                 border: solid rgba(0, 0, 0, 0.1);
+                font-size: larger;
             }
 
-            .buyAhome-content-form {
-                display: flex;
-                flex-direction: column;
-            }
+        .buyAhome-content-form {
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            height: 2100px;
+            gap: 1%;
+            font-size: large;
+            
+        }
+
+                .buyAhome-content-form-header {
+                    background-color: var(--menu1-background);
+                    height: 10%;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: xx-large;
+                    color: var(--menu1-font-color);
+                    border-top-left-radius: 10px;
+                    border-top-right-radius: 10px;
+                }
+
+                .buyAhome-content-form-header-tittle {
+                    margin: 2%;
+                }
+
+                    .idealHome {
+                        height: 10%;
+                        width: 100%;
+                        
+                    }
+
+                    .buyAhome-content-form > button {
+                        color: var(--menu1-font-color);
+                        background-color: var(--menu1-background);
+                        font-size: large;
+                        width: 20%;
+                        height: 5%;
+                        border-radius: 10px;
+                        align-self: center;
+                    }
