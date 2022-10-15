@@ -49,7 +49,7 @@ li {
 
     .buyAhome-content-text-and-recentPosts {
         width: 100%;
-        height: 100%;
+        height: fit-content;
         display: flex;
         padding: 1%;
         gap: 1%;
@@ -84,13 +84,49 @@ li {
                 }
 
                 .buyAhome-content-text > p > a {
-                    font-weight: bold;
-                    color:
-
-                    
+                    font-weight: bolder;
+                    color:  var(--font-color-tel-buyAHome);
+                    transition: 0.5s ease-in-out;
                 }
 
+                    .buyAhome-content-text > p > a:hover {
+                        color: var(--color-bg-top);
+                        transition: 0.5s ease-in-out;
+                    }
+
         .buyAhome-content-recentPosts {
-            width: 40%;
+            width: 30%;
             height: 100%;
+            display: flex;
+            flex-direction: column; 
         }
+
+            .buyAhome-content-recentPosts-header {
+                width: 100%;
+                height: 10%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: var(--menu1-background);
+                color: var(--menu1-font-color);
+                font-family: sanchez;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                font-size: larger;
+                font-weight: lighter;
+            }
+
+            .buyAhome-content-recentPosts-wrapper {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                padding: 1%;
+                height: 100%;
+                font-family: Helvetica;
+                border: solid rgba(0, 0, 0, 0.1);
+            }
+
+            .buyAhome-content-form {
+                display: flex;
+                flex-direction: column;
+            }
